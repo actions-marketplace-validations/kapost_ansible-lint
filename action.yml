@@ -1,0 +1,9 @@
+name: kapost-ansible-linter
+description: "This action runs an ansible linter."
+branding:
+  icon: 'book-open'
+  color: 'blue'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
